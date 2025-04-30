@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App 🌤</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <button id="toggle-theme" class="theme-toggle" title="Toggle Dark Mode">
+      🌙
+    </button>
+    <h1>Weather App 🌤</h1>
+    <div class="input-group">
+      <input type="text" id="city" placeholder="Enter city..." />
+      <button onclick="getWeather()">Search</button>
+    </div>
+    <div id="result" class="weather-box"></div>
+
+    <h3>Recent Searches</h3>
+    <ul id="history-list"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
