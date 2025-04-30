@@ -1,4 +1,4 @@
-const apiKey = "fb038f32ddfdc36b33b503f1126f9c8b";
+const apiKey = "apikey";
 const historyList = document.getElementById("history-list");
 
 function loadHistory() {
